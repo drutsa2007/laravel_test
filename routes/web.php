@@ -16,3 +16,5 @@ use App\Http\Controllers\MainController;
 
 Route::get('/', [MainController::class, 'index'])
     ->name('home');
+Route::post('/', [MainController::class, 'index'])
+    ->name('home');
